@@ -33,8 +33,7 @@ public class NhnMartShell {
     }
 
     private static BuyList inputBuyListFromShell() {
-
-        // TODO Scanner 입력을 받아 buyList 만들기
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.println("NHN 마트에 오신 것을 환영합니다. 사고 싶은 물건을 골라주세요. \n ");

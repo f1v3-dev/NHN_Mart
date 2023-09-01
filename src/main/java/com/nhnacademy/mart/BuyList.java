@@ -13,7 +13,6 @@ public class BuyList {
 
     private final ArrayList<Item> items = new ArrayList<>();
 
-    // TODO add 메서드 생성
     public void add(Item item) {
         items.add(item);
     }

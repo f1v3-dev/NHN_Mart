@@ -15,7 +15,7 @@ class CounterTest {
         int customerMoney = 10000;
         int total = 5000;
 
-        Assertions.assertEquals(5000 ,counter.pay(customerMoney, total));
+        Assertions.assertEquals(5000, counter.pay(customerMoney, total));
 
     }
 
