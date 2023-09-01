@@ -1,5 +1,8 @@
 package com.nhnacademy.mart;
 
+/**
+ * NhnMart Class.
+ */
 public class NhnMart {
 
     private final FoodStand foodStand = new FoodStand();
@@ -26,5 +29,13 @@ public class NhnMart {
 
     public Basket provideBasket() {
         return new Basket();
+    }
+
+    public FoodStand getFoodStand() {
+        return foodStand;
+    }
+
+    public Counter getCounter() {
+        return new Counter();
     }
 }

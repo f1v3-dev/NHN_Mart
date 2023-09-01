@@ -1,11 +1,17 @@
 package com.nhnacademy.mart;
 
+/**
+ * Food Class.
+ */
 public class Food {
 
     private final String name;
     private final int price;
 
-
+    public Food(String name, int price) {
+        this.name = name;
+        this.price = price;
+    }
 
     public String getName() {
         return name;
