@@ -33,6 +33,10 @@ public class Customer {
         return basket;
     }
 
+    public void setCustomerMoney(int customerMoney) {
+        this.customerMoney = customerMoney;
+    }
+
     // 장바구니 챙기기
     public void bring(Basket basket) {
         this.basket = basket;
@@ -51,20 +55,13 @@ public class Customer {
     }
 
     public void payTox(Counter counter) {
-
         ArrayList<Food> foods = basket.getFoods();
 
         int total = 0;
         for (Food food : foods) {
             total += food.getPrice();
         }
+        setCustomerMoney(counter.pay(getCustomerMoney(), total));
 
-        int change = counter.pay(getCustomerMoney(), total);
-        if (change < 0) {
-            throw new IllegalArgumentException("고객님이 가진 돈을 초과하는 상품을 구매할 수 없습니다.");
-        }
-
-        System.out.println("총 가격은 " + total + "원 입니다.");
-        System.out.println("고객님 결제 후 잔액 : " + change);
     }
 }
