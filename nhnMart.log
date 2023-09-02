@@ -71,3 +71,5 @@
 2023-09-01 14:36:35,061 [main] WARN c.n.m.BuyList [BuyList.java:41] - 수량은 1보다 작을 수 없습니다.
 2023-09-01 16:54:16,310 [main] WARN c.n.m.BuyList [BuyList.java:41] - 수량은 1보다 작을 수 없습니다.
 2023-09-01 23:07:13,068 [main] WARN c.n.m.BuyList [BuyList.java:41] - 수량은 1보다 작을 수 없습니다.
+2023-09-02 13:07:03,306 [main] WARN c.n.m.BuyList [BuyList.java:41] - 수량은 1보다 작을 수 없습니다.
+2023-09-02 13:07:10,334 [main] WARN c.n.m.BuyList [BuyList.java:41] - 수량은 1보다 작을 수 없습니다.
