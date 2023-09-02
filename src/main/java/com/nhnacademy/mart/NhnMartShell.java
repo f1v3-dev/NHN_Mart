@@ -5,9 +5,16 @@ import java.util.StringTokenizer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * NHN Mart를 시작하는 클래스.
+ */
+
 public class NhnMartShell {
     private static final Logger log = LoggerFactory.getLogger(NhnMartShell.class);
 
+    /**
+     * NHN Mart의 main Method.
+     */
     public static void main(String[] args) {
         NhnMart mart = new NhnMart();
         mart.prepareMart();

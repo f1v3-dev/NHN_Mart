@@ -54,6 +54,11 @@ public class Customer {
         }
     }
 
+    /**
+     * 1. Basket에 있는 모든 품목들의 가격을 더해 총 액을 구한다.
+     * 2. Cusotmer가 가지고 있는 금액과 총 액을 counter.pay()에 넘긴다.
+     * 3. 반환된 값은 Customer의 customerMoney의 값으로 변경한다.
+     */
     public void payTox(Counter counter) {
         ArrayList<Food> foods = basket.getFoods();
 
